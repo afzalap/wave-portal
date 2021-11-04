@@ -1,12 +1,5 @@
 body{
-  /* background-color: #1A202C;  */
- /* background-image: url(./assets/cool-background.png); https://replit.com/@AfzalAP/waveportal-starter-project#src/assets/cool-background.png */
-/* background-image: url(./assets/tile_background.png); */
-  
-/* background-color: #120E43; */
-background-image: url(./assets/endless-constellation2.svg);
-
-  /* background-size: cover; */
+  background-image: url(./assets/endless-constellation2.svg);
   box-sizing: border-box;
 }
 
@@ -38,24 +31,32 @@ background-image: url(./assets/endless-constellation2.svg);
 }
 
 .waveButton {
-  width: 600px;
+  font-family:'Courier New' ;
+  color: #CAD5E2;
+  width: 100%;
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  background-color:  rgba(255, 255, 255, .08);
+  background-color:  rgb(85,0,85);
   backdrop-filter: blur(1.3px);
   
+}
+
+.waveButton:hover{
+  background-color:  rgb(85,0,85, 0.7);
+  transition: background-color ease-in-out 100ms;
 }
 
 
 
 input {
   outline: none;
+  color :#CAD5E2;
   margin-top: 16px;
   padding: 8px;
-  
+  font-family:'Courier New' ;
   border-radius: 5px;
   border-color:  rgba(255, 255, 255, 0);
   border-bottom: 2px solid #550055;
@@ -66,10 +67,52 @@ input {
 input:focus{ outline: none; }
 
 .msglist{
-  color :white;
+  color :#CAD5E2;
   background-color:  rgba(255, 255, 255, .08);
   backdrop-filter: blur(1.3px);
   margin-top: 16px;
   border-radius: 5px;
   padding: 8px;
+}
+
+.msglist:last-child{
+  margin-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .mainContainer {
+    margin-top: 30px;
+  }
+
+.dataContainer {
+  max-width: 300px;
+}
+
+.bio {
+  font-size: 16px;
+}
+
+
+
+.waveButton:hover{
+  background-color:  rgb(85,0,85, 0.7);
+  transition: background-color ease-in-out 100ms;
+}
+
+
+
+input {
+  height: 25px;
+}
+
+.msglist{
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
 }

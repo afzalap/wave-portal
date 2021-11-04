@@ -50,6 +50,7 @@ const App = () => {
 
       console.log("Connected", accounts[0]);
       setCurrentAccount(accounts[0]); 
+      getAllWaves();
     } catch (error) {
       console.log(error)
     }
@@ -142,7 +143,9 @@ const wave = async () => {
   
   return (
     <div className="mainContainer">
+   
       <div className="dataContainer">
+      
         <div className="header">
         👋 Hey there!
         </div>
@@ -166,9 +169,9 @@ const wave = async () => {
         {allWaves.map((wave, index) => {
           return (
             <div key={index} className="msglist">
+              <div>Message: {wave.message}</div>
               <div>Address: {wave.address}</div>
               <div>Time: {wave.timestamp.toString()}</div>
-              <div>Message: {wave.message}</div>
             </div>)
         })}     
       </div>
