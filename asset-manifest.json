@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wave-portal/static/css/main.34a712e3.chunk.css",
+    "main.js": "/wave-portal/static/js/main.d7b23549.chunk.js",
+    "main.js.map": "/wave-portal/static/js/main.d7b23549.chunk.js.map",
+    "runtime-main.js": "/wave-portal/static/js/runtime-main.51ee677a.js",
+    "runtime-main.js.map": "/wave-portal/static/js/runtime-main.51ee677a.js.map",
+    "static/js/2.6fa69808.chunk.js": "/wave-portal/static/js/2.6fa69808.chunk.js",
+    "static/js/2.6fa69808.chunk.js.map": "/wave-portal/static/js/2.6fa69808.chunk.js.map",
+    "index.html": "/wave-portal/index.html",
+    "precache-manifest.265fe351e80bb18425eaf61e3054cdda.js": "/wave-portal/precache-manifest.265fe351e80bb18425eaf61e3054cdda.js",
+    "service-worker.js": "/wave-portal/service-worker.js",
+    "static/css/main.34a712e3.chunk.css.map": "/wave-portal/static/css/main.34a712e3.chunk.css.map",
+    "static/media/App.css": "/wave-portal/static/media/endless-constellation2.77548118.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51ee677a.js",
+    "static/js/2.6fa69808.chunk.js",
+    "static/css/main.34a712e3.chunk.css",
+    "static/js/main.d7b23549.chunk.js"
+  ]
+}
